@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "..\\test"
+		},
+		{
+			"path": "vedio"
+		},
+		{
+			"path": "img"
+		},
+		{
+			"path": "music"
+		},
+		{
+			"path": "picture"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,584 @@
+/*背景*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/18.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+/*logo位置*/
+.logo1{
+    
+    transform: translate(380px,40px);
+}
+.logo2{
+    
+    transform: translate(690px,-60px);
+    
+}
+.logo3{
+
+    transform: translate(320px,-390px);
+}
+
+/*可點擊更換瀏覽圖片*/
+.slide{
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    right: 50%;
+    top: 60%;
+    transform: translate(50%,50%);
+    overflow: hidden;
+}
+.slide input{
+    position: fixed;
+    bottom: 10px;
+}
+#img1{
+    left: 20px;
+}
+#img2{
+    left: 40px;
+}
+#img3{
+    left: 60px;
+}
+#img4{
+    left: 80px;
+}
+#img5{
+    left: 100px;
+}
+.imags{
+    width: 3200px;
+    height: 480px;
+    display: flex;
+}
+.imag{
+    width: 640px;
+    height: 480px;
+}
+.imag img{
+    width: 100%;
+}
+#img1:checked ~.first{
+    margin-left:0;
+}
+#img2:checked ~.first{
+    margin-left: -640px;
+}
+#img3:checked ~.first{
+    margin-left:-1280px;
+}
+#img4:checked ~.first{
+    margin-left:-1920px;
+}
+#img5:checked ~.first{
+    margin-left:-2560px;
+}
+
+/*文字0*/
+.zero{
+    font-family: 'Ma Shan Zheng',cursive;
+    margin-top: 300px;
+    text-align: center;
+    color: rgb(1, 17, 73);
+}
+
+/*文字1*/
+.one{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 300px;
+    right: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px #fff;
+   
+   
+}
+/*文字1(圖)*/
+.one img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    vertical-align: middle;
+}
+
+/*文字1(文)*/
+.txt1{
+    
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+    
+}
+.one h2{
+    color: rgba(63, 22, 68, 0.705);
+}
+.one h3{
+    color: rgb(15, 52, 74);
+}
+
+/*文字2*/
+.two{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 390px;
+    left: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字2(圖)*/
+.two img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    vertical-align: middle;
+}
+/*文字2(文)*/
+.txt2{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字2*/
+.three{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 450px;
+    right: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+/*文字2(圖)*/
+.three img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    vertical-align: middle;
+}
+/*文字2(文)*/
+.txt3{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字4*/
+.four{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 550px;
+    left: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字4(圖)*/
+.four img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    vertical-align: middle;
+}
+/*文字4(文)*/
+.txt4{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字1*/
+.five{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 690px;
+    right: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px #fff;
+   
+   
+}
+
+/*文字1(圖)*/
+.five img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    vertical-align: middle;
+}
+/*文字1(文)*/
+.txt5{
+    
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+    
+}
+.five h2{
+    color: rgba(63, 22, 68, 0.705);
+}
+.five h3{
+    color: rgb(15, 52, 74);
+}
+
+/*文字6*/
+.six{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 800px;
+    left: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字6(圖)*/
+.six img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    vertical-align: middle;
+}
+/*文字6(文)*/
+.txt6{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字7*/
+.seven{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 1000px;
+    right: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字7(圖)*/
+.seven img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    vertical-align: middle;
+}
+/*文字7(文)*/
+.txt7{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字8*/
+.eight{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 1100px;
+    left: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字8(圖)*/
+.eight img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    vertical-align: middle;
+}
+/*文字8(文)*/
+.txt8{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字9*/
+.nine{
+    font-family: 'Ma Shan Zheng',cursive;
+    margin-top: 1300px;
+    text-align: center;
+    color: rgb(1, 17, 73);
+}
+
+/*文字10*/
+.ten{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 300px;
+    right: 20px;
+    width: 800px;
+    margin:auto;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字10(圖)*/
+.ten img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    vertical-align: middle;
+}
+/*文字10(文)*/
+.txt10{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字11*/
+.eleven{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 450px;
+    left: 400px;
+    width: 800px;
+    margin:auto;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字11(圖)*/
+.eleven img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    vertical-align: middle;
+}
+/*文字11(文)*/
+.txt11{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字12*/
+.twelve{
+    font-family: 'Ma Shan Zheng',cursive;
+    margin-top: 800px;
+    text-align: center;
+    color: rgb(1, 17, 73);
+}
+
+/*文字13*/
+.thirteen{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 300px;
+    right: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px #fff;
+   
+   
+}
+/*文字13(圖)*/
+.thirteen img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    vertical-align: middle;
+}
+/*文字13(文)*/
+.txt13{
+    
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+    
+}
+.thirteen h2{
+    color: rgba(63, 22, 68, 0.705);
+}
+.thirteen h3{
+    color: rgb(15, 52, 74);
+}
+
+/*文字14*/
+.fourteen{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 500px;
+    left: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字14(圖)*/
+.fourteen img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    vertical-align: middle;
+}
+/*文字14(文)*/
+.txt14{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字15*/
+.fifteen{
+    font-family: 'Ma Shan Zheng',cursive;
+    position: relative;
+    top: 600px;
+    right: 250px;
+    width: 600px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    color: rgb(137, 17, 17);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+   
+}
+/*文字15(圖)*/
+.fifteen img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    vertical-align: middle;
+}
+/*文字15(文)*/
+.txt15{
+    width: 50%;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+/*文字16*/
+.sixteen{
+    font-family: 'Ma Shan Zheng',cursive;
+    margin-top: 900px;
+    text-align: center;
+    color: rgb(1, 17, 73);
+}
+
+/*影片1*/
+.vedio1{
+    
+   position: absolute;
+   top: 2000px;
+   left: 780px;
+}
+.vedio1 video{
+    width: 350px;
+    height: 200px;
+}
+/*影片2*/
+.vedio2{
+    position: absolute;
+    top: 4300px;
+    left: 780px;
+}
+.vedio2 video{
+    width: 350px;
+    height: 200px;
+}
+/*影片3*/
+.vedio3{
+    position: absolute;
+    top: 8800px;
+    left: 780px;
+}
+.vedio3 video{
+    width: 350px;
+    height: 200px;
+}
+/*剧照集*/
+.aa{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aa ul{
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.aa li{
+    float: left;
+    width: 110px;
+    height: 300px;
+    list-style: none;
+    transition: all 1s;
+    position: relative;
+
+}
+.aa img{
+    height: 100%;
+    width: 450px;
+}
+.aa li::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 450px;
+    height: 30px;
+}
+.aa ul:hover li{
+    width: 25px;
+}
+.aa ul li:hover{
+    width: 450px;
+}
+/*回顶端*/
+.home img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 10px;
+    left: 1210px;
+}
