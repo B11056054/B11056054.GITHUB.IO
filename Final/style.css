@@ -645,21 +645,7 @@ body {
 }
 
 
-/*影片3*/
 
-.vedio3 {
-    position: absolute;
-    top: 8800px;
-    left: 780px;
-}
-
-.vedio3 video {
-    width: 350px;
-    height: 200px;
-}
-
-
-/*剧照集*/
 
 .aa {
     height: 100vh;
